@@ -1,2 +1,3 @@
 # assignment1
-first repository
+First Repository
+This is a demonstration on how to use GitHub

@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #ddd;
+}
+
+/* Navigation Styling */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+/* Tag Selectors Styling */
+p {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Custom Classes */
+.intro-text {
+  font-size: 1.3em;
+  color: #555;
+}
+
+.highlight-text {
+  background-color: #fffae6;
+  padding: 10px;
+  border-left: 5px solid #ffd700;
+  font-style: italic;
+}
+
+/* Section Styling */
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery Grid Layout */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  clip-path: circle(50%);
+  transition: clip-path 0.3s ease, transform 0.3s ease;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-grid img:hover {
+  clip-path: circle(75%);
+  transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Additional Styling for inline links within content */
+a {
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005fa3;
+}
